@@ -1,0 +1,23 @@
+{
+  "name": "digitalocean-space-example",
+  "version": "0.0.1",
+  "description": "DigitalOcean Spaces sample app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "aws-sdk": "^2.132.0",
+    "body-parser": "^1.18.2"
+  },
+  "engines": {
+    "node": "6.10.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "digitalocean",
+    "express"
+  ]
+}
