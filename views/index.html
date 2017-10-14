@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DigitalOcean Spaces Example</title>
+    <meta name="description" content="DigitalOcean Spaceson Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        DigitalOcean Spaces
+      </h1>
+    </header>
+
+    <main>
+      <p class="bold">Hey there,</p>
+      
+      <p>Let's try creating a new <a href="https://www.digitalocean.com/products/object-storage/">DigitalOcean Space</a> using JavaScript. Enter the name for your Space below:</p>
+      
+      <form action="bucketName" method="post">
+        <p><strong>Bucket Name:</strong></p>
+        <input type="text" name="name"/>
+        <p><strong>File Contents:</strong></p>
+        <textarea name="content">I'll be in a  file named hello_spaces.txt</textarea>
+        <input type="submit" />
+      </form>
+      
+      <p>If you've <a href="https://glitch.com/edit/#!/digitalocean-spaces-example">remixed me</a>, remember to set your Spaces Access key and Secret in the '.env' file. <a href="https://glitch.com/edit/#!/digitalocean-spaces-example">See the code</a> and view the logs for further info.</p>
+      <p>Originally based on this <a href="https://glitch.com/edit/#!/remix/aws-sdk">AWS-SDK example</a> since <a href="https://developers.digitalocean.com/documentation/spaces">Spaces is S3 compatible.</a></p>
+    </main>
+
+    <script src="https://button.glitch.me/button.js"></script>
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+  </body>
+</html>
